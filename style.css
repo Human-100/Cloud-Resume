@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    background-color: #134E5E !important;
+
+    margin:0;
+    color: #252525;
+    position: relative;
+
+
+    
+
+}
+.main-box{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right , #134E5E,  #71B280 );    height: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+    
+
+}
+a{
+    text-decoration: none !important;
+    color: #252525;
+}
+.outer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    flex-direction: column;
+    row-gap: 80px;
+}
+.top-background{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar{
+    background-color: rgb(221, 208, 190);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+   
+}
+.elements{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.name{
+    font-size: 30px;
+    font-family: "Playfair Display", serif !important;
+    font-optical-sizing: auto;
+    font-style: normal !important;
+
+}
+.ele{
+    padding: 0px 10px 0px 10px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.up-main{
+    width: 1000px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.username{
+    font-size: 42px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+img{
+    border-radius: 50%;
+    z-index: 22;
+    margin-left: -560px;
+    border: 5px solid antiquewhite;
+ 
+}
+.designation{
+    margin-top: -35px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+.details{
+    background-color: antiquewhite;
+    color: #252525 ;
+    margin-top: -50px;
+    border-radius: 20px;
+    margin-left: 100px;
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    
+
+}
+.space{
+    width: 100px;
+}
+.line{
+    border: 1px solid #252525;
+    background-color: #252525;
+    width: 0.1px;
+    height: 100px;
+}
+.mail{
+    font-size: 18px;
+}
+.part2{
+    display: flex;
+    column-gap: 1fr 1fr 1fr 1fr;
+}
+.links{
+    padding: 10px 0px 10px 0px;
+    display: flex;
+
+}
+i{
+    padding: 0px 20px 0px 20px;
+}
+.box{
+    background-color: antiquewhite;
+    width: 900px;
+    margin-top: -50px;
+    border-radius: 20px;
+    margin-left: 100px;
+    padding: 20px 50px 20px 50px;
+    
+    
+}
+.box2{
+    background-color: antiquewhite;
+    width: 900px;
+    margin-top: -50px;
+    border-radius: 20px;
+    margin-left: 100px;
+    padding: 20px 50px 20px 50px;
+    
+}
+.control-box{
+    background-color: antiquewhite;
+    width: 900px;
+    margin-top: -50px;
+    margin-left: 100px;
+    border-radius: 20px;
+    padding: 0px 20px 0px 20px;
+
+    display: flex;
+    justify-content: space-around;
+    font-size: 32px;
+}
+.control-box div{
+    padding: 20px 55px 20px 55px;
+
+}
+
+.summary{
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    
+}
+.cv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cv button{
+    background-color: #134E5E;
+    color: antiquewhite;
+    padding: 15px;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius:10px;
+    cursor: pointer;
+
+}
+
+h1{
+    font-family: "Open Sans", sans-serif !important;
+    font-optical-sizing: auto;
+    font-style: normal !important;
+}
+.down-projects{
+    font-family: "Open Sans", sans-serif !important;
+
+    background-color: antiquewhite;
+    margin-top: -50px;
+    width: 900px;
+
+    border-radius: 20px;
+    margin-left: 100px;
+    padding: 20px 50px 20px 50px;
+    
+}
+
+h3{
+    margin-bottom: -10px;
+    font-size: 22px;
+}
+li{
+    margin-top:10px;
+    font-size: 16px;
+
+}
+.visit-box{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: antiquewhite;
+    opacity: 0.6;
+    text-align: center;
+    font-size: 22px;
+    padding: 0px 10px 0px 10px;
+    border-bottom-left-radius:20px ;
+    
+
+}
+.skill-box{
+    display: grid;
+    width: 100%;
+    grid-template-columns:1fr 1fr;
+}
+.control-box div:hover{
+    transition: 0.4s;
+    background-color:#134E5E;
+    color: antiquewhite;
+}
+
+
+/* review */
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+    max-width: 320px;
+    box-shadow: 0.5px 0.5px 5px;
+    font-size: 11px;
+    
+  }
+  
+  .stars {
+    display: flex;
+    grid-gap: 0.125rem;
+    gap: 0.125rem;
+    color: rgb(238, 203, 8);
+  }
+  
+  .star {
+    height: 1.25rem;
+    width: 1.25rem;
+  }
+  
+  .infos {
+    margin-top: 1rem;
+  }
+  
+  .date-time {
+    color: rgba(7, 63, 216, 1);
+    font-size: 12px;
+    font-weight: 600;
+  }
+  
+  .description {
+    margin-top: 0.4rem;
+    line-height: 1.625;
+    color: rgba(107, 114, 128, 1);
+  }
+  
+  .author {
+    margin-top: 1.3rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: rgba(107, 114, 128, 1);
+  }
+  /* review-end */
+
+  .reviews{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .certifications{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 25px;
+  }
+  .cert{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .cert p{
+    margin-top: -10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .cert a{
+    font-size: 15px;
+    margin-top: -17px;
+    color: #1c444f;
+    text-decoration: underline !important;
+  }
+
+  .cert-img{
+    border-radius: 0;
+    z-index: 22;
+    margin-left: 0px;
+    border: none;
+    width: 300px;
+  }
+  .university{
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    margin-top: -15px !important;
+    margin-bottom: 20px;
+  }
+
+  .p-container{
+    background-color: #134E5E;
+    color: rgb(246, 234, 218) !important;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+  }
+
+
+
+@media only screen and (max-width:600px){
+    .visit-box{
+        font-size: 15.5px;
+
+    }
+    .up-main{
+        width: 100%;
+    }
+    img{
+        margin-left: 0px;
+    }
+    .details{
+        flex-direction: column;
+        width: 90%;
+        
+        margin-left: 0;
+    }
+    .username{
+        font-size: 35px;
+        text-align: center;
+    }
+    .designation{
+        font-size: 12px;
+    }
+
+    .down-projects{
+        width: 305px;
+        padding: 5px 20px 15px 20px;
+        margin-left: 0;
+
+    }
+    .line{
+        width: 70px;
+        height: 0.1px;
+        margin:25px 0px 25px 0px ;
+
+    }
+    .box{
+        width: 305px;
+        padding: 5px 20px 15px 20px;
+        margin-left: 0;
+
+    }
+    .box2{
+        width: 305px;
+        padding: 5px 20px 15px 20px;
+        margin-left: 0;
+    }
+    .control-box{
+        width: 305px;
+        margin-left: 0;
+        font-size: 18px;
+
+    }
+    .control-box div{
+        padding: 20px 05px 20px 05px;
+
+    }
+    .summary{
+        font-size: 15px;
+        
+    }
+    .skills{
+        padding-left: 30px !important;padding-right: 30px !important;
+    }
+    .projects{
+        padding-left: 15px !important;padding-right: 15px !important;
+    }
+    .Certs{
+        padding-left: 30px !important;padding-right: 30px !important;
+    }
+    li{
+        font-size: 14px
+    }
+    .skill-box{
+        grid-template-columns: 1fr;
+    }
+
+    .reviews{
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .certifications{
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+    .badge{
+        margin-top: -35px !important;
+    }
+}
+
