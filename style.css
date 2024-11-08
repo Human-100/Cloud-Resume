@@ -361,6 +361,10 @@ li{
 
 
 @media only screen and (max-width:600px){
+    .infos2{
+        margin-top: 1rem;
+    
+      }
     .visit-box{
         font-size: 15.5px;
 
